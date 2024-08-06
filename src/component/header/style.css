@@ -1,0 +1,116 @@
+body {
+    margin: 0;
+    font-family:'Inter', sans-serif;
+    font-family: 'Author', sans-serif;
+  }
+
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+  @import url('https://fonts.cdnfonts.com/css/author-2');
+  *{
+    list-style-type: none;
+    text-decoration: none;
+  }
+  .container {
+    max-width: 1305.72px;
+    margin: auto;
+    padding: 0 15px;
+  }
+  
+  .row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  ul.icon-list {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 0;
+}
+ul.icon-list a {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-family:'Inter', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.94px;
+    text-align: left;
+    color: #1A1A1A;
+  
+}
+.col{
+    display: flex;
+}
+ul.icon-box{
+    display:flex;
+    gap: 10px;
+
+}
+
+.icon-link a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 23.88px;
+    height: 23.88px;
+    border-radius: 73.75px;
+    border: 1px solid;
+    color: #E86F31;
+    background-color: #E86F31;
+    padding: 5px;
+}
+.top-bar {
+    border-bottom: 1px solid #7A7A7A;
+}
+a.weight{
+    font-weight: 600;
+    color: #E86F31 !important;
+    border-bottom: 1px solid #E86F31;
+}
+.column{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.column ul{
+gap: 20px;
+display: flex;
+align-items: center;
+}
+.column a{
+font-family:'Inter', sans-serif;
+font-size: 18px;
+font-weight: 400;
+line-height: 21.78px;
+text-align: left;
+color: #1a1a1a;
+}
+.quote button{
+    width: 172px;
+height: 60px;
+background-color: #E86F31;
+border-radius: 5px ;
+border: none;
+color: #fff;
+font-family:'Inter', sans-serif;
+font-size: 18px;
+font-weight: 600;
+line-height: 21.78px;
+text-align: center;
+
+}
+.navbar{
+    padding: 18px 0;
+}
+a.bold {
+    font-weight: 600 !important;
+}
+.bg-img{
+    background-image: url(images/Rectangle\ 6\ \(2\).png);
+        width: 100%;
+        height: 80vh;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
