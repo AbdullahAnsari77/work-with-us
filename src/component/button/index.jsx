@@ -1,9 +1,14 @@
+import "./style.css";
 
-
-const Button = () => {
+// eslint-disable-next-line react/prop-types
+const Button = ({ text,style }) => {
   return (
-    <div>Button</div>
-  )
-}
+    <div>
+      <button style={style}>{text}</button>
+    </div>
+    
+  
+  );
+};
 
-export default Button
+export default Button;
