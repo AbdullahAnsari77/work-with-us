@@ -1,0 +1,19 @@
+.bg-img {
+    background-image: url(../../assets/images/logo.png);
+    width: 100%;
+    height: 80vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bg-img h1{
+    font-family: 'Author' sans-serif;
+font-size: 80px;
+font-weight: 700;
+line-height: 88.8px;
+text-align: center;
+color: #fff;
+}
