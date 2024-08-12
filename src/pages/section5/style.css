@@ -1,0 +1,32 @@
+
+.solution h2{
+    font-family: 'Author', sans-serif;
+    font-size: 45px;
+    font-weight: 596;
+    line-height: 49.95px;
+    text-align: center;
+    color: #1a1a1a;
+}
+.column-5 a{
+    width: 139.44px;
+    height: 139.44px;
+    border: 1px solid #E86F31;
+    background-color: #E86F31;
+    border-radius: 66px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 0 20px;
+}
+.column-5 .link-img-a {
+    width: 104.32px;
+}
+.column-5 .link-img-b{
+  width:70.66px ;  
+}
+.column-5 .link-img-c{
+ width: 85.19px;
+}
+.column-5 .link-img-d{
+    width: 92.23px;
+}
