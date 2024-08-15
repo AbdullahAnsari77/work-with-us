@@ -1,6 +1,5 @@
 import "./style.css";
-
-// eslint-disable-next-line react/prop-types
+import PropTypes from 'prop-types';
 const Button = ({ text,style }) => {
   return (
     <div>
@@ -12,3 +11,8 @@ const Button = ({ text,style }) => {
 };
 
 export default Button;
+
+Button.propTypes = {
+  text: PropTypes.string,
+ style:PropTypes.any
+}
