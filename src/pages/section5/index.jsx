@@ -16,15 +16,15 @@ function Section5() {
             </div>
             <div className="column-5">
              <a href="#"><img src={LinkImgA} alt=""  className="link-img-b" /></a>
-             <p>Full Truckload</p>
+             <p>Refrigerated (Reefer)</p>
             </div>
             <div className="column-5">
              <a href="#"><img src={LinkImgB} alt=""  className="link-img-c" /></a>
-             <p>Full Truckload</p>
+             <p>Flatbed</p>
             </div>
             <div className="column-5">
              <a href="#"><img src={LinkImgC} alt=""  className="link-img-d" /></a>
-             <p>Full Truckload</p>
+             <p>Expedited</p>
             </div>
          
         </div>
