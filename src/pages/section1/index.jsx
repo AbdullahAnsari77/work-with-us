@@ -1,6 +1,6 @@
 import "./style.css";
 
-const Index = () => {
+const Section1 = () => {
   return (
     <section>
       <div className="row">
@@ -9,8 +9,7 @@ const Index = () => {
         </div>
       </div>
     </section>
-    
   );
 };
 
-export default Index;
+export default Section1;
