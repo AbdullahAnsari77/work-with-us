@@ -1,6 +1,6 @@
 import "./style.css";
 import Card from "../../component/card";
-import { Box } from "../../component/constant/mock";
+import { Box } from "../../constant/mock.js";
 
 const Section6 = () => {
   return (

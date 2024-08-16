@@ -1,19 +1,19 @@
-import VectorImg from "../../assets/images/Vector (9).png";
-import fi_4671092 from "../../assets/images/fi_4671092 (1).png";
-import basket from "../../assets/images/basket.png";
-import truckter from "../../assets/images/truckter.png";
-import Stroke from "../../assets/images/Stroke.png";
-import manufacturing from "../../assets/images/Manufacturing.png";
-import Beverage from "../../assets/images/Beverage.png";
-import Healthcare from "../../assets/images/Healthcare.png";
-import Aerospace from "../../assets/images/Aerospace.png";
-import Perishables from "../../assets/images/Perishables.png";
-import Chemicals from "../../assets/images/Chemicals.png";
-import Gaming from "../../assets/images/Gaming.png";
-import Trade from "../../assets/images/Trade.png";
-import Entertainment from "../../assets/images/Entertainment.png";
-import Electronics from "../../assets/images/Electronics.png";
-import Sports from "../../assets/images/Sports.png";
+import VectorImg from "../assets/images/Vector (9).png";
+import fi_4671092 from "../assets/images/fi_4671092 (1).png";
+import basket from "../assets/images/basket.png";
+import truckter from "../assets/images/truckter.png";
+import Stroke from "../assets/images/Stroke.png";
+import manufacturing from "../assets/images/Manufacturing.png";
+import Beverage from "../assets/images/Beverage.png";
+import Healthcare from "../assets/images/Healthcare.png";
+import Aerospace from "../assets/images/Aerospace.png";
+import Perishables from "../assets/images/Perishables.png";
+import Chemicals from "../assets/images/Chemicals.png";
+import Gaming from "../assets/images/Gaming.png";
+import Trade from "../assets/images/Trade.png";
+import Entertainment from "../assets/images/Entertainment.png";
+import Electronics from "../assets/images/Electronics.png";
+import Sports from "../assets/images/Sports.png";
 
 export const Box = [
   {

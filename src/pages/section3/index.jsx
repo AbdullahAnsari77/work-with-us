@@ -1,6 +1,6 @@
 import "./style.css";
 import SecImg from "../../assets/images/Rectangle 4322.png";
-import { linksList1, linksList2 } from "../../component/constant/mock";
+import { linksList1, linksList2 } from "../../constant/mock.js";
 import Links from "../../component/links";
 
 const Section3 = () => {
