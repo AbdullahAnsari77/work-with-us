@@ -1,67 +1,81 @@
-.column-2 h2{
-    font-family: 'Author' sans-serif;
-font-size: 45px;
-font-weight: 596;
-line-height: 49.95px;
-text-align: left;
-color: 1a1a1a;
+.column-2 h2 {
+  font-size: 45px;
+  font-weight: 596;
+  line-height: 49.95px;
+  text-align: left;
+  color: 1a1a1a;
 }
-.column-2 p{
-    color: #7A7A7A;
-    font-family: 'Inter' sans-serif;
-font-size: 18px;
-font-weight: 400;
-line-height: 28px;
-text-align: left;
+.column-2 p {
+  color: #7a7a7a;
+  font-family: "Inter" sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: left;
 }
-.link {
-    display: flex;
-    align-items: center;
-    gap: 30px;
-    background-color: #E86F31;
-    width: 793px;
-    height: 300px;
-    border-radius: 0 0 33px 0;
-    position: absolute;
-    left: 43%;
-    bottom: -103.2%;
+.links-wrapper {
+  background-color: #e86f31;
+  width: 793px;
+  height: 300px;
+  border-radius: 0 0 33px 0;
+  position: absolute;
+  left: 45%;
+  bottom: -106.1%;
+  display: flex;
+  padding: 0 0 15px 0;
 }
-.link ul{
-    padding: 0;
+.links-wrapper ul {
+  padding: 0;
 }
 
-.link a {
-    font-family: 'Satoshi' sans-serif;
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 28px;
-    text-align: left;
-    color: #FFFFFF;
-    display: flex;
-    gap: 20px;
-    align-items: center;
-    padding: 10px 0% 10px 106px
+.links a {
+  font-family: "Satoshi" sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: left;
+  color: #ffffff;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  padding: 10px 0% 10px 106px;
 }
 .column-3 {
-    margin: 0px 0px 31% 45px;
+  margin: 0px 0px 31% 45px;
 }
-section.partnering{
-    padding: 0 0 75px 0;
+section.partnering {
+  padding: 0 0 75px 0;
 }
-.column-3 h2{
-    font-family: 'Author'sans-serif;
-font-size: 45px;
-font-weight: 596;
-line-height: 49.95px;
-text-align: left;
-color: #1a1a1a;
+.column-3 h2 {
+  font-size: 45px;
+  font-weight: 596;
+  line-height: 49.95px;
+  text-align: left;
+  color: #1a1a1a;
 }
 .column-3 p {
-    font-family: 'Inter' sans-serif;
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 28px;
-    text-align: left;
-    color: #1a1a1a;
-    width: 89%;
+  font-family: "Inter" sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: left;
+  color: #1a1a1a;
+  width: 89%;
+}
+.links {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.links h4 {
+  font-family: "Satoshi" sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: left;
+  color: #ffffff;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  cursor: pointer;
 }

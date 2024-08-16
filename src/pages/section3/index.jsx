@@ -1,6 +1,8 @@
 import "./style.css";
 import SecImg from "../../assets/images/Rectangle 4322.png";
-import StokeImg from "../../assets/images/Stroke 3.png"
+import { linksList1, linksList2 } from "../../component/constant/mock";
+import Links from "../../component/links";
+
 const Section3 = () => {
   return (
     <section className="partnering">
@@ -16,19 +18,25 @@ const Section3 = () => {
               industry. Lorem Ipsum has been the industrys standard dummy text
               ever since the 1500s. when an unknown printer took a galley.
             </p>
-            <div className="link">
+            <div className="links-wrapper">
               <ul>
-                <li><a href="#"><img src={StokeImg} alt="" />Extensive Capacity</a></li>
-                <li><a href="#"><img src={StokeImg} alt="" />Competitive Rates</a></li>
-                <li><a href="#"><img src={StokeImg} alt="" />Dedicated Pricing Analyst</a></li>
-                <li><a href="#"><img src={StokeImg} alt="" />End-to-end Visibility</a></li>
-                </ul>
-                <ul>
-                <li><a href="#"><img src={StokeImg} alt="" />Modern, Reliable Equipment</a></li>
-                <li><a href="#"><img src={StokeImg} alt="" />24/7 Coverage & Support</a></li>
-                <li><a href="#"><img src={StokeImg} alt="" />Custom Solutions</a></li>
-                <li><a href="#"><img src={StokeImg} alt="" />Client Focused Process</a></li>
+                {linksList1.map((head, index) => (
+                  <Links
+                    key={index}
+                    image={head.image}
+                    titles={head.titles}
+                  ></Links>
+                ))}
+              </ul>
 
+              <ul>
+                {linksList2.map((head, index) => (
+                  <Links
+                    key={index}
+                    image={head.image}
+                    titles={head.titles}
+                  ></Links>
+                ))}
               </ul>
             </div>
           </div>
