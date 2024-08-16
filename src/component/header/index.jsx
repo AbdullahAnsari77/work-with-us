@@ -10,7 +10,6 @@ import Button from "../button";
 
 const Header = () => {
   return (
-    
     <header>
       <div className="top-bar">
         <div className="container">
@@ -94,7 +93,7 @@ const Header = () => {
               </ul>
             </div>
             <div className="quote">
-           <Button text={'get a quote'} />
+              <Button text={"get a quote"} />
             </div>
           </div>
         </div>
