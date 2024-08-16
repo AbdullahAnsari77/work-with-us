@@ -1,24 +1,20 @@
 import Button from "../../component/button";
-// import Buttons from "../../component/buttons";
 import "./style.css";
-// import bg from '../../assets/images/Group 48095602.png'
 
 const Section4 = () => {
   return (
-<section className="partner-up">
-<div className="back-img">
-<h3>Partner Up With Swick</h3>
-  
+    <section className="partner-up">
+      <div className="back-img">
+        <h3>Partner Up With Swick</h3>
 
-<div className="partner-button">
-<Button text={'Haul With Us'}/>
-<Button text={'Ship with Us'}/>
-<Button text={'Agent Program'}/>
- </div>
- </div>   
+        <div className="partner-button">
+          <Button text={"Haul With Us"} />
+          <Button text={"Ship with Us"} />
+          <Button text={"Agent Program"} />
+        </div>
+      </div>
+    </section>
+  );
+};
 
-</section>
-  )
-}
-
-export default Section4
+export default Section4;
