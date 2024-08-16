@@ -1,41 +1,40 @@
 .card-title {
-    font-family: 'Author', sans-serif;
-    font-size: 20px;
-    font-weight: 596;
-    line-height: 22.2px;
-    text-align: center;
-    color: #1a1a1a;
-    margin: 7% 0 6% 0
+  font-family: "Author", sans-serif;
+  font-size: 20px;
+  font-weight: 596;
+  line-height: 22.2px;
+  text-align: center;
+  color: #1a1a1a;
+  margin: 7% 0 6% 0;
 }
 .card-description {
-    font-family: 'Author', sans-serif;
-    font-size: 16px;
-    font-weight: 375;
-    line-height: 20px;
-    text-align: center;
-    color: #1a1a1a;
+  font-family: "Author", sans-serif;
+  font-size: 16px;
+  font-weight: 375;
+  line-height: 20px;
+  text-align: center;
+  color: #1a1a1a;
 }
 .card {
-    width: 411px;
-    height: 304px;
-    border-radius: 10px;
-    border: 1px solid #fff;
-    background-color: #fff;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 40px 0 0 0;
+  width: 411px;
+  height: 304px;
+  border-radius: 10px;
+  border: 1px solid #fff;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 40px 0 0 0;
 }
-.card a{
-    border: 1px solid #E86F31;
-    background-color: #E86F31;
-    border-radius: 52px;
-    padding: 5px;
-    width: 86px;
-    height: 86px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 34px 0 0 0;
+.card a {
+  border: 1px solid #e86f31;
+  background-color: #e86f31;
+  border-radius: 52px;
+  padding: 5px;
+  width: 86px;
+  height: 86px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 34px 0 0 0;
 }
-
