@@ -1,7 +1,7 @@
 import "./style.css";
 import PropTypes from "prop-types";
 
-const Links = ({ image, titles }) => {
+const LinkItem = ({ image, titles }) => {
   return (
     <div className="links">
       <a href="#">
@@ -11,9 +11,9 @@ const Links = ({ image, titles }) => {
     </div>
   );
 };
-export default Links;
+export default LinkItem;
 
-Links.propTypes = {
+LinkItem.propTypes = {
   titles: PropTypes.string,
   image: PropTypes.string,
 };

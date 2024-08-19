@@ -19,99 +19,99 @@ export const Box = [
   {
     image: VectorImg,
     title: "Construction",
-    discription:
+    description:
       "Porem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.",
   },
   {
     image: fi_4671092,
     title: "Automotive",
-    discription:
+    description:
       "Porem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.",
   },
   {
     image: basket,
     title: "Retail",
-    discription:
+    description:
       "Porem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.",
   },
   {
     image: truckter,
     title: "Agriculture",
-    discription:
+    description:
       "Porem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.",
   },
   {
     image: manufacturing,
     title: "Manufacturing",
-    discription:
+    description:
       "Porem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.",
   },
   {
     image: Beverage,
     title: "Food & Beverage",
-    discription:
+    description:
       "Porem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.",
   },
   {
     image: Healthcare,
     title: "Medical Equipment - Healthcare Products",
-    discription:
+    description:
       "Porem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.",
   },
 
   {
     image: Aerospace,
     title: "Aerospace",
-    discription:
+    description:
       "Porem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.",
   },
 
   {
     image: Perishables,
     title: "Perishables",
-    discription:
+    description:
       "Porem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.",
   },
 
   {
     image: Chemicals,
     title: "Chemicals & Plastics",
-    discription:
+    description:
       "Porem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.",
   },
 
   {
     image: Gaming,
     title: "Gaming Equipment",
-    discription:
+    description:
       "Porem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.",
   },
 
   {
     image: Trade,
     title: "Trade Shows",
-    discription:
+    description:
       "Porem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.",
   },
 
   {
     image: Entertainment,
     title: "Entertainment",
-    discription:
+    description:
       "Porem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.",
   },
 
   {
     image: Electronics,
     title: "Sports Equipment",
-    discription:
+    description:
       "Porem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.",
   },
 
   {
     image: Sports,
     title: "Technology & Electronics",
-    discription:
+    description:
       "Porem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.",
   },
 ];

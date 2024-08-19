@@ -17,12 +17,12 @@ const Section6 = () => {
           </p>
           <div className="row">
             {Box.map((ali, index) => (
-              <Card
-                key={index}
-                image={ali.image}
-                title={ali.title}
-                discription={ali.discription}
-              ></Card>
+            <Card
+            key={index}
+            image={ali.image}
+            title={ali.title}
+            description={ali.description} />
+
             ))}
           </div>
         </div>

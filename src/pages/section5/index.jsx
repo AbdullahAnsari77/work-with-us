@@ -1,7 +1,7 @@
-import LinkImg from "../../assets/images/Mask group (3).png";
-import LinkImgA from "../../assets/images/Mask group.png";
-import LinkImgB from "../../assets/images/Mask group (1).png";
-import LinkImgC from "../../assets/images/Mask group (2).png";
+import LinkImg from "../../assets/images/dumper icon.png";
+import LinkImgA from "../../assets/images/radio icon.png";
+import LinkImgB from "../../assets/images/dumper weight.png";
+import LinkImgC from "../../assets/images/customer service truck.png";
 import "./style.css";
 
 function Section5() {

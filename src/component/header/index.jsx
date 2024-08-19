@@ -1,11 +1,11 @@
 import "./style.css";
-import IconCalls from "../../assets/images/Group (2).png";
-import IconCall from "../../assets/images/fi_542689.png";
-import LinkCall from "../../assets/images/fi_6964169.png";
-import LinkCalls from "../../assets/images/Group (3).png";
-import HeadLink from "../../assets/images/Vector (5).png";
-import HeadLinks from "../../assets/images//fi_20837 (1).png";
-import MenuImg from "../../assets/images/Layer_1.png";
+import IconCalls from "../../assets/images/call icon.png";
+import IconCall from "../../assets/images/message icon.png";
+import LinkCall from "../../assets/images/bag icon.png";
+import LinkCalls from "../../assets/images/profile icon.png";
+import HeadLink from "../../assets/images/linkdin icon header.png";
+import HeadLinks from "../../assets/images//facebook icon header.png";
+import MenuImg from "../../assets/images/Logo.png";
 import Button from "../button";
 
 const Header = () => {
