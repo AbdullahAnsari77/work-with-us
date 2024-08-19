@@ -1,0 +1,40 @@
+.back-images {
+  background-image: url(../../assets/images/Rectangle.png);
+  width: 100%;
+  height: 2032px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.industries .row {
+  flex-wrap: wrap;
+}
+h4.head {
+  font-family: "Inter" sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24.2px;
+  letter-spacing: 0.07em;
+  text-align: center;
+  color: #e86f31;
+  padding: 40px 0 0 0;
+}
+h2.sec-head {
+  font-size: 45px;
+  font-weight: 596;
+  line-height: 49.95px;
+  text-align: center;
+  color: #ffffff;
+}
+p.para {
+  font-size: 18px;
+  font-weight: 375;
+  line-height: 28px;
+  text-align: left;
+  color: #ffffff;
+  width: 65%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
