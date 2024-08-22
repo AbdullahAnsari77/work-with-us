@@ -1,8 +1,5 @@
 import "./App.css";
 import Footer from "./component/footer";
-// import Footercolumn from "./component/footer";
-// import Footer from "./component/footer";
-
 import Header from "./component/header";
 import Section1 from "./pages/section1";
 import Section2 from "./pages/section2";

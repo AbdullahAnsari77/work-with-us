@@ -1,8 +1,6 @@
 import { ContactUs, PortalLinks, QuickLink } from "../../constant/mock";
 import "./style.css";
 import Logo from "../../assets/images/Logo.png";
-// import facebook from "../../assets/images/footer-facebook.png";
-// import Linkdin from "../../assets/images/footer-linkdin.png";
 
 const Footer = () => {
   return (
@@ -19,7 +17,10 @@ const Footer = () => {
                   {item?.icons ? (
                     <span>
                       {item?.icons.map((icon, ind) => (
-                       <a className="border" href="#" key={ind}> <img src={icon} alt="icon" /></a>
+                        <a className="border" href="#" key={ind}>
+                          {" "}
+                          <img src={icon} alt="icon" />
+                        </a>
                       ))}
                     </span>
                   ) : (

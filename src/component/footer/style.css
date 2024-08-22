@@ -48,17 +48,17 @@ h4.heading {
   color: #fff;
 }
 footer span {
-    display: flex;
-    gap: 20px;
-    align-items: center;
+  display: flex;
+  gap: 20px;
+  align-items: center;
 }
-a.border{
-display: flex;
-align-items: center;
-justify-content: center;
-width: 36.39px;
-height: 36.39px;
-border-radius: 4px;
-background-color: #fff;
-padding: 0 !important;
+a.border {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 36.39px;
+  height: 36.39px;
+  border-radius: 4px;
+  background-color: #fff;
+  padding: 0 !important;
 }

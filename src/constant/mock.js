@@ -165,7 +165,7 @@ export const linksList2 = [
 export const ContactUs = [
   {
     icon: location,
-    text : "6499 Powerline Rd, Fort Lauderdale, Florida 333309, US",
+    text: "6499 Powerline Rd, Fort Lauderdale, Florida 333309, US",
   },
   {
     icon: call,
@@ -194,21 +194,17 @@ export const QuickLink = [
   {
     text: "MC 1118522",
   },
-
   {
     text: "DOT 3442654",
   },
 ];
-
 export const PortalLinks = [
   {
     text: "Carriers",
   },
-
   {
     text: "Shippers",
   },
-
   {
     text: "Freight Agents",
   },
