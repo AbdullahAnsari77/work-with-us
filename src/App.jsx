@@ -1,4 +1,8 @@
 import "./App.css";
+import Footer from "./component/footer";
+// import Footercolumn from "./component/footer";
+// import Footer from "./component/footer";
+
 import Header from "./component/header";
 import Section1 from "./pages/section1";
 import Section2 from "./pages/section2";
@@ -6,6 +10,7 @@ import Section3 from "./pages/section3";
 import Section4 from "./pages/section4";
 import Section5 from "./pages/section5";
 import Section6 from "./pages/section6";
+
 function App() {
   return (
     <>
@@ -16,6 +21,8 @@ function App() {
       <Section4 />
       <Section5 />
       <Section6 />
+     <Footer/>
+      
     </>
   );
 }
