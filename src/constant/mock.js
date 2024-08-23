@@ -14,6 +14,11 @@ import Trade from "../assets/images/Trade.png";
 import Entertainment from "../assets/images/Entertainment.png";
 import Electronics from "../assets/images/Electronics.png";
 import Sports from "../assets/images/Sports.png";
+import location from "../assets/images/location.png";
+import call from "../assets/images/call.png";
+import message from "../assets/images/message.png";
+import facebook from "../assets/images/footer-facebook.png";
+import linkdin from "../assets/images/footer-linkdin.png";
 
 export const Box = [
   {
@@ -155,5 +160,52 @@ export const linksList2 = [
   {
     image: Stroke,
     titles: "Client Focused Process",
+  },
+];
+export const ContactUs = [
+  {
+    icon: location,
+    text: "6499 Powerline Rd, Fort Lauderdale, Florida 333309, US",
+  },
+  {
+    icon: call,
+    text: "Phone: +1 312 -724 - 7179",
+  },
+  {
+    icon: message,
+    text: "Email: sales@swicklogistics.com",
+  },
+  {
+    icons: [facebook, linkdin],
+    text: "",
+  },
+];
+
+export const QuickLink = [
+  {
+    text: "About Us",
+  },
+  {
+    text: "Our Solution",
+  },
+  {
+    text: "Contact Us",
+  },
+  {
+    text: "MC 1118522",
+  },
+  {
+    text: "DOT 3442654",
+  },
+];
+export const PortalLinks = [
+  {
+    text: "Carriers",
+  },
+  {
+    text: "Shippers",
+  },
+  {
+    text: "Freight Agents",
   },
 ];
