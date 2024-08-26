@@ -62,3 +62,20 @@ a.border {
   background-color: #fff;
   padding: 0 !important;
 }
+
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+h4.heading {
+  font-size: 25px;
+}
+a.border {
+  width: 32.39px;
+  height: 32.39px;
+}
+.link-list li a {
+  font-size: 13px;
+}
+footer {
+  padding: 4% 0px 2% 24px;
+}
+}

@@ -41,3 +41,51 @@ section.partner-up {
   gap: 30px;
   align-items: center;
 }
+
+/* ipad pro */
+@media screen and (min-width: 1024px) and (max-width: 1366px) {
+.partner-button button {
+  width: 117px;
+  height: 45px;
+  font-size: 13px;
+}
+
+.back-img h3 {
+  font-size: 30px;
+}
+  .back-img {
+    height: 272px;
+}
+.links {
+  gap: 14px;
+}
+.links a img {
+  width: 17px;
+}
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+.back-img h3 {
+  font-size: 25px;
+}
+.partner-button button {
+  width: 129px;
+  height: 50px;
+  font-size: 14px;
+}
+.back-img {
+  height: 232px;
+}
+.column-5 .link-img-d {
+  width: 70.23px;
+}
+.column-5 .link-img-c {
+  width: 65.19px;
+}
+.column-5 .link-img-b {
+  width: 60.66px;
+}
+.column-5 .link-img-a {
+  width: 85.32px;
+}
+
+}
