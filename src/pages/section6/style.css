@@ -39,43 +39,43 @@ p.para {
   margin: auto;
 }
 @media screen and (min-width: 1024px) and (max-width: 1366px) {
-.card a {
-  border: 1px solid #e86f31;
-  background-color: #e86f31;
-  border-radius: 52px;
-  padding: 5px;
-  width: 62px;
-  height: 62px;
-}
-.card {
-  width: 292px;
-  height: 264px
-}
-.card-description {
-  font-size: 13px;
-}
-.card-title {
-  font-size: 16px;
-}
-h4.head {
-  font-family: "Inter" sans-serif;
-  font-size: 17px;
-}
-h2.sec-head {
-  font-size: 30px;
-}
-p.para {
-  font-size: 18px;
-  text-align: center;
-}
-.card-description {
-  font-size: 13px;
-}
+  .card a {
+    border: 1px solid #e86f31;
+    background-color: #e86f31;
+    border-radius: 52px;
+    padding: 5px;
+    width: 62px;
+    height: 62px;
+  }
+  .card {
+    width: 292px;
+    height: 264px;
+  }
+  .card-description {
+    font-size: 13px;
+  }
+  .card-title {
+    font-size: 16px;
+  }
+  h4.head {
+    font-family: "Inter" sans-serif;
+    font-size: 17px;
+  }
+  h2.sec-head {
+    font-size: 30px;
+  }
+  p.para {
+    font-size: 18px;
+    text-align: center;
+  }
+  .card-description {
+    font-size: 13px;
+  }
 }
 @media screen and (min-width: 768px) and (max-width: 1024px) {
   h4.head {
     font-size: 16px;
-  } 
+  }
   h2.sec-head {
     font-size: 25px;
   }
@@ -92,26 +92,39 @@ p.para {
   }
   .card-title {
     font-size: 15px;
+  }
+  .card {
+    height: 269px;
+  }
 }
-.card {
-  height: 269px;
-}
-}
-@media screen and (min-width:320px ) and (max-width: 767px) {
-p.para {
-  font-size: 13px;
-}
-h2.sec-head {
-  font-size: 25px;
-}
-h4.head {
-  font-size: 17px;
-}
-.back-images {
-  height: 100%;
-}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  p.para {
+    font-size: 13px;
+  }
+  h2.sec-head {
+    font-size: 25px;
+  }
+  h4.head {
+    font-size: 17px;
+  }
+  .back-images {
+    height: 100%;
+  }
+  .card a {
+    width: 70px;
+    height: 70px;
+  }
+  .card-title {
+    font-size: 15px;
+  }
+  .card-description {
+    font-size: 13px;
+  }
+  .card {
+    width: 274px;
+    height: 275px;
+    margin: 40px 10px 0 10px;
+  }
 }
 @media screen and (min-width: 767px) and (max-width: 1165px) {
-
-
 }

@@ -62,44 +62,50 @@ const Header = () => {
           </div>
         </div>
       </div>
-      <div className="navbar">
-        <div className="container">
-          <div className="row">
-            <div className="menu">
-              <img src={MenuImg} alt="" />
-            </div>
-            <div className="column">
-              <ul>
-                <li>
-                  <a href="#">Home</a>
-                </li>
-                <li>
-                  <a href="#">About Us</a>
-                </li>
-                <li>
-                  <a className="weight" href="#">
-                    Our Solutions
-                  </a>
-                </li>
-                <li>
-                  <a href="#">Work With Us</a>
-                </li>
-                <li>
-                  <a href="#">Agent Program</a>
-                </li>
-                <li>
-                  <a href="#">Contact Us</a>
-                </li>
-              </ul>
-            </div>
-            <div className="quote">
-              <Button text={"get a quote"} />
+      <nav className="mobile-menu">
+        <div className="navbar">
+          <div className="container">
+            <div className="row">
+              <div className="menu">
+                <img src={MenuImg} alt="" />
+              </div>
+              <a href="#" className="hamburger-wrapper">
+                <div className="hamburger-menu"></div>
+              </a>
+              <div className="mobile-menu-overlay">
+                <div className="menu-link">
+                  <ul>
+                    <li>
+                      <a href="#">Home</a>
+                    </li>
+                    <li>
+                      <a href="#">About Us</a>
+                    </li>
+                    <li>
+                      <a className="weight" href="#">
+                        Our Solutions
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">Work With Us</a>
+                    </li>
+                    <li>
+                      <a href="#">Agent Program</a>
+                    </li>
+                    <li>
+                      <a href="#">Contact Us</a>
+                    </li>
+                  </ul>
+                </div>
+                <div className="quote">
+                  <Button text={"get a quote"} />
+                </div>
+              </div>
             </div>
           </div>
         </div>
-      </div>
+      </nav>
     </header>
   );
 };
-
 export default Header;
