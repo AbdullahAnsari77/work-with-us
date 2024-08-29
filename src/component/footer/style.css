@@ -62,3 +62,46 @@ a.border {
   background-color: #fff;
   padding: 0 !important;
 }
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  h4.heading {
+    font-size: 25px;
+  }
+  a.border {
+    width: 32.39px;
+    height: 32.39px;
+  }
+  .link-list li a {
+    font-size: 13px;
+  }
+  footer {
+    padding: 4% 0px 2% 24px;
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .column-7 {
+    width: 46%;
+    margin: 0 0 0 10px;
+  }
+  .column-6 {
+    width: 100%;
+    margin: 0 0 0 10px;
+  }
+  footer .row {
+    flex-wrap: wrap;
+  }
+  h4.heading {
+    font-size: 20px;
+  }
+  .link-list li a {
+    font-size: 13px;
+  }
+  a.border {
+    width: 30.39px;
+    height: 30.39px;
+  }
+  img.footer-logo {
+    width: 132px;
+    padding: 15px 0 0 0;
+  }
+}
