@@ -209,3 +209,26 @@ export const PortalLinks = [
     text: "Freight Agents",
   },
 ];
+export const MenuLink =[
+  {
+    text: "Home",
+  },
+  {
+    text: "About Us",
+  },
+  {
+    text: "Our Solutions",
+  },
+  {
+    text: "Work With Us",
+  },
+  {
+    text: "Agent Program",
+  },
+  {
+    text: "Contact Us",
+  },
+]
+
+
+

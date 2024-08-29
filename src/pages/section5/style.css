@@ -106,4 +106,22 @@ section.solution {
     width: 110.44px;
     height: 110.44px;
   }
+  .column-5 .link-img-d {
+    width: 70.23px;
+  }
+  .column-5 .link-img-c {
+    width: 65.19px;
+  }
+  .column-5 .link-img-b {
+    width: 60.66px;
+  }
+  .column-5 .link-img-a {
+    width: 85.32px;
+  }
+  .column-5 p {
+    font-size: 14.76px;
+  }
+  .solution h2 {
+    font-size: 25px;
+}
 }

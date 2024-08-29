@@ -7,6 +7,7 @@ import HeadLink from "../../assets/images/linkdin icon header.png";
 import HeadLinks from "../../assets/images//facebook icon header.png";
 import MenuImg from "../../assets/images/Logo.png";
 import Button from "../button";
+import { MenuLink } from "../../constant/mock";
 
 const Header = () => {
   return (
@@ -75,26 +76,12 @@ const Header = () => {
               <div className="mobile-menu-overlay">
                 <div className="menu-link">
                   <ul>
-                    <li>
-                      <a href="#">Home</a>
-                    </li>
-                    <li>
-                      <a href="#">About Us</a>
-                    </li>
-                    <li>
-                      <a className="weight" href="#">
-                        Our Solutions
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">Work With Us</a>
-                    </li>
-                    <li>
-                      <a href="#">Agent Program</a>
-                    </li>
-                    <li>
-                      <a href="#">Contact Us</a>
-                    </li>
+                    {MenuLink.map((item, index) => (
+                      <li key={index}>
+                        <a href="#">{}</a>
+                        <a href="#">{item.text}</a>
+                      </li>
+                    ))}
                   </ul>
                 </div>
                 <div className="quote">

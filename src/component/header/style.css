@@ -180,15 +180,13 @@ a.bold {
 }
 /* ipad mini */
 @media screen and (min-width: 768px) and (max-width: 1024px) {
-  ul.icon-list a {
-    font-size: 13px;
-  }
+  .navbar .menu-link a {
+    font-size: 12px;
+}
   .menu img {
     width: 100px;
   }
-  .menu-link a {
-    font-size: 12px;
-  }
+  
   .quote button {
     width: 110px;
     height: 50px;
@@ -198,6 +196,11 @@ a.bold {
     width: 32.39px;
     height: 32.39px;
   }
+  .navbar .menu-link ul{
+    gap: 12px;
+    padding: 0;
+  }
+  
 }
 @media screen and (min-width: 320px) and (max-width: 767px) {
   .col {
@@ -263,4 +266,63 @@ a.bold {
     color: #ffffff !important;
     line-height: 32px;
   }
+}
+@media screen and (max-width:1249px) {
+  .menu-link a {
+    font-size: 17px
+  }
+}
+@media screen and (min-width: 1250px) and (max-width:1270px) {
+  .menu-link a {
+    font-size: 17px
+  }
+}
+@media screen and (min-width: 1025px) and (max-width:1225px) {
+  .navbar .menu-link a {
+    font-size: 14px;
+}
+}
+@media screen and (min-width:1025px ) and (max-width:1090px) {
+  .navbar .menu-link a {
+    font-size: 14px;
+}
+
+  .menu-link ul {
+    gap: 18px;
+    padding: 0;
+}
+
+}
+@media screen and (min-width: 768px) and (max-width: 1025px) {
+   .menu-link a {
+    font-size: 12px;
+}
+.top-bar ul.icon-list a{
+  font-size: 11px;
+}
+.icon-list li:last-child {
+  padding-left: 0px;
+}
+.top-bar{
+  padding: 0 10px 0 10px;
+}
+.navbar{
+  padding: 10px 10px 10px 10px;
+}
+.navbar .quote button {
+  width: 104px;
+  height: 45px;
+  font-size: 13px;
+}
+}
+@media screen and (max-width: 1250px) {
+  .quote button {
+    width: 155px;
+    height: 56px;
+    font-size: 17px;
+  }
+  body .menu-link a {   
+    font-size: 17px;
+}
+
 }

@@ -132,9 +132,7 @@ section.partnering {
     display: flex;
     justify-content: center;
   }
-  .back-images {
-    height: 100%;
-  }
+ 
   .column-3 p {
     font-size: 13px;
   }
@@ -164,11 +162,7 @@ section.partnering {
   .solution h2 {
     font-size: 25px;
   }
-  .card {
-    width: 222px;
-    height: 291px;
-    padding: 10px;
-  }
+  
 }
 @media screen and (min-width: 320px) and (max-width: 767px) {
   section.partnering .row {
