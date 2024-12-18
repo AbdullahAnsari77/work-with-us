@@ -23,7 +23,7 @@ const Section3 = () => {
                 {linksList1.map((head, index) => (
                   <Links
                     key={index}
-                    image={head.image}
+                    image ={head.image}
                     titles={head.titles}
                   ></Links>
                 ))}

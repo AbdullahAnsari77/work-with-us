@@ -2,7 +2,7 @@ import "./style.css";
 
 const Section1 = () => {
   return (
-    <section>
+    <section className="first-background-img">
       <div className="row">
         <div className="bg-img">
           <h1>Work With Us</h1>
